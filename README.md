@@ -1,31 +1,30 @@
-# COT-4500-AS3
-Homework (Programming Assignment 3a)
-
-## Installation and Usage
-
-### **First: Clone the Repository**
-If you haven't already cloned the repository, run:
-
-```sh
-git clone https://github.com/Izaacapp/cot-4500-as3.git
-cd cot-4500-as3
-```
+# COT-4500 Assignment 3
 
 ## Description
-The repository contains implementations of numerical methods for solving equations, using the different methods viewed in class
+This assignment implements Euler's Method and Runge-Kutta (RK4) for solving differential equations.
+
+## Installation
+1. Clone the repository:
+git clone https://github.com/Izaacapp/cot-4500-as3.git
 
 ## Requirements
-Install all dependencies using:
-```sh
+2. Install dependencies:
 pip install -r requirements.txt
-```
 
-## Run the program
+
+## Running the Program
+3. How to execute the program:
 ```
 python src/main/assignment_3.py
 ```
 
-## Run test
+## Running Tests
+4.  How to run the unit tests:
 ```
-python -m unittest discover -s src/test
+pytest src/test/test_assignment_3.py
 ```
+
+## Expected Outputs
+- Euler's Method: `1.2446380979332121`
+- Runge-Kutta 4: `1.251316587879806`
+
