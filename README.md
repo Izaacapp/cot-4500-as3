@@ -5,12 +5,16 @@ This assignment implements Euler's Method and Runge-Kutta (RK4) for solving diff
 
 ## Installation
 1. Clone the repository:
+```
 git clone https://github.com/Izaacapp/cot-4500-as3.git
+```
 
 ## Requirements
 2. Install dependencies:
-pip install -r requirements.txt
-
+pip install 
+```
+-r requirements.txt
+```
 
 ## Running the Program
 3. How to execute the program:
